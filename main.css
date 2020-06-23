@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(
+        to right,
+        blue,
+        rgb(83, 83, 141),
+        rgb(255, 255, 255)
+    );
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid black;
+}
+.flex {
+    display: flex;
+}
+.justify-content {
+    justify-content: center;
+}
+.text-large {
+    font-size: 30px;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+select {
+    width: 100px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.height-auto {
+    height: auto;
+}
+.space-around {
+    justify-content: space-around;
+}
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+.font-decoration {
+    font-size: 20px;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.editButton {
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+.editBtn {
+    font-size: 20px;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    border: 3px solid yellowgreen;
+}
